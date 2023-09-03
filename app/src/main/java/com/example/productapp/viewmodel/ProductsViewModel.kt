@@ -28,7 +28,7 @@ class ProductsViewModel @Inject constructor
 
     init {
         showProduct()
-        }
+    }
 
 
     private fun hasInternetConnection(): Boolean {
@@ -46,6 +46,7 @@ class ProductsViewModel @Inject constructor
             else -> false
         }
     }
+
 
 
     private fun showProduct() {
